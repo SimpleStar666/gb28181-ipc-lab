@@ -1,0 +1,22 @@
+# 构建产物
+build/
+steps/build/
+*.o
+*.a
+*.so
+gb28181_device
+gb28181_device_aarch64
+
+# 测试产物（由 tools/ 脚本生成，不入库）
+assets/*.h264
+assets/*.ps
+assets/*.mp4
+*.ps
+*.pcap
+*.pcapng
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~

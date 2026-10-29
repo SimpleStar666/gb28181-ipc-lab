@@ -1,0 +1,15 @@
+# 统一换行符，避免 Windows 检出的 CRLF 把 bash 脚本弄坏
+* text=auto eol=lf
+
+# Windows 脚本保留 CRLF 也无妨，但 .ps1 不在本仓库范围内
+*.sh   text eol=lf
+*.c    text eol=lf
+*.h    text eol=lf
+*.md   text eol=lf
+*.ini  text eol=lf
+Makefile text eol=lf
+
+# 二进制
+*.h264 binary
+*.ps   binary
+*.mp4  binary
